@@ -1,0 +1,145 @@
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color:#f7f1e3 !important;
+}
+.img2{
+    background-image: url(img.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 500px;
+    box-shadow: 0 4px 8px 0 ;
+}
+.navbar a {
+    float: right;
+    color:whitesmoke;
+    font-weight: bolder;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbar a:hover{
+      background-color:  rgba(189, 195, 199,0.5);
+      color: black;
+  }
+  .prh{
+    position: absolute;
+    top: 30%;
+  left: 25%;
+  transform: translate(-50%, -50%);   
+  font-size: 100px;
+border :solid;
+background-color: rgba(189, 195, 199,0.5);
+  }
+
+  .pr{
+    position: absolute;
+    top: 30%;
+  left: 75%;
+  transform: translate(-50%, -50%);   
+  font-size: 100px;
+border :solid;
+background-color: rgba(189, 195, 199,0.5);
+
+
+}
+button{
+    position: absolute;
+    top: 20%;
+    right: 16%;
+    transform: translate(-50%, -50%);  
+    transition-duration: 0.4s;  
+    background-color:transparent;
+    color: black;
+    font-weight: bold;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 4px 2px; 
+}
+button:hover{
+    background-color:#535c68;
+    
+}
+.apr{
+    color:#353b48;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 60px;
+}
+.txtapr{
+    display: flex;
+    justify-content: space-between;
+}
+.txt{
+    
+    color :brown;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    text-align: justify;
+    border: solid;
+    border-color: black;
+    width: 40%;
+    padding: 15px;
+  
+}
+.txt:hover{
+    background-color: rgba(189, 195, 199,0.5) ;
+
+}
+.img1{
+    
+    margin-right:5%;
+    height: 30%;
+    width: 40%;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 ;
+}
+.cpt{
+    display: flex;
+    justify-content: space-between;
+}
+.icpt{
+    width: 100px;
+    height: 100px;
+}
+
+figcaption{
+    color: burlywood;
+     padding-top: 90px;
+     font-weight: bold;
+     font-size: 40px;
+}
+.projettitre{
+    display: flex;
+    justify-content: space-between;
+}
+.projct{
+    display: flex;
+    justify-content: space-between;
+}
+
+.prs{
+    color :brown;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    text-align: justify;
+}
+video{
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: center;    
+}
+.lois{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 ;
+}
+footer{
+    background-color: rgba(189, 195, 199,0.5);
+    text-align: center;
+    font-weight: bold;
+}
