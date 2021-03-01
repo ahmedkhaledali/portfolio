@@ -69,7 +69,8 @@ button:hover{
 }
 .txtapr{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .txt{
     
@@ -97,7 +98,8 @@ button:hover{
 }
 .cpt{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .icpt{
     width: 100px;
@@ -112,11 +114,13 @@ figcaption{
 }
 .projettitre{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .projct{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .prs{
